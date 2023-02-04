@@ -1,0 +1,14 @@
+{
+	"name": "Unseen Strike Hints",
+	"description": "Send message to self on Unseen Strike activation and end",
+	"author": "Yerziah",
+	"contact" : "Yerziah#3180",
+	"version": "1.0",
+	"color" : "255 25 255",
+	"priority" : 1000,
+	"hooks": [
+		{ "hook_id" : "lib/managers/hudmanagerpd2", "script_path" : "lua/unseen_base.lua"},
+		{ "hook_id" : "lib/player_actions/skills/playeractionunseenstrike", "script_path" : "lua/unseen_listener.lua" },
+		{ "hook_id" : "lib/managers/menumanager", "script_path" : "menu/unseen_menu.lua"}
+	]
+}

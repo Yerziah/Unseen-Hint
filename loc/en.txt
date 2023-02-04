@@ -1,0 +1,12 @@
+{
+    "unseenhint_menu_title" : "Unseen Strike Hint",
+    "unseenhint_menu_desc" : "Change the message from unseen strike activation",
+
+    "unseenhint_status_title" : "Send message",
+    "unseenhint_status_desc" : "Disable the message, or send it on basic, aced, or both versions of the skill",
+
+    "unseenhint_status_none" : "None",
+    "unseenhint_status_basic" : "Basic",
+    "unseenhint_status_aced" : "Aced",
+    "unseenhint_status_both" : "Both"
+}

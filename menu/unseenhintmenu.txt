@@ -1,0 +1,23 @@
+{
+	"menu_id" : "unseenhint_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "unseenhint_menu_title",
+	"description" : "unseenhint_menu_desc",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "unseenhint_status",
+			"title" : "unseenhint_status_title",
+			"description" : "unseenhint_status_desc",
+			"callback" : "callback_unseenhint_status"
+            "items" : [
+                "unseenhint_status_none",
+                "unseenhint_status_basic",
+                "unseenhint_status_aced",
+                "unseenhint_status_both"
+            ]
+            "value" : "unseen_status",
+            "default_value" : 4
+		}
+	]
+}
