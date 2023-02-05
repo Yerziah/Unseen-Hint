@@ -1,5 +1,5 @@
 {
-	"name": "Unseen Strike Hints",
+	"name": "Unseen Strike Messages",
 	"description": "Send message to self on Unseen Strike activation and end",
 	"author": "Yerziah",
 	"contact" : "Yerziah#3180",
